@@ -1,0 +1,12 @@
+import math
+
+baseR = int(input("Base do Retagulo: "))
+alturaR = int(input("Altura do Retangulo: "))
+
+area = baseR * alturaR
+perimetro = 2 * (baseR + alturaR)
+diagonal = math.sqrt(baseR**2 + alturaR**2)
+
+print("Area = ", area)
+print("Paramentro = ", perimetro)
+print("Diagonal = ", diagonal)
