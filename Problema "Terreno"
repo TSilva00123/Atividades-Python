@@ -1,0 +1,9 @@
+largura = int(input("Digite a largura do terreno "))
+comprimento = int(input("Digite o comprimento do terreno "))
+valorM = int(input("Digite o valor do metro quadadro "))
+
+area = largura * comprimento
+preco = area * valorM
+
+print("Area do terreno = ", area)
+print("Preco do terreno = ", preco)
