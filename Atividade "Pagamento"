@@ -1,0 +1,7 @@
+nome = input("Nome: ")
+valorH = float(input("Valor por hora: "))
+horasT = float(input("Horas trabalhadas: "))
+
+pagamento = valorH * horasT
+
+print("O pagamento para", nome, " deve ser ", pagamento)
