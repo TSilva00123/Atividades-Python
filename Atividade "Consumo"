@@ -1,0 +1,6 @@
+distancia = float(input("Distancia percorrida: "))
+combustivel = float(input("Combustível gasto: "))
+
+consumo = distancia / combustivel
+
+print("Consumo medio = ", consumo)
